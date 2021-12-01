@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  localstack:
+    container_name: awsb-container-localstack
+    image: localstack/localstack:latest
+    environment:
+      SERVICES: serverless
+    ports:
+      - "4566:4566"
+      - "4571:4571"
+
+networks:
+  default:
+    name: awsb-network-default

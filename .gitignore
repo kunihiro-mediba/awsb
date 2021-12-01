@@ -1,0 +1,12 @@
+/.idea/
+/.vscode/
+
+/build/
+
+*.log
+*.swp
+*.lock
+
+._*
+.DS_Store
+Thumbs.db
